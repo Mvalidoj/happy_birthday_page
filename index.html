@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4A2E1A">
+  <meta name="description" content="Un mar al atardecer de felicitaciones para María Karla.">
+  <title>Feliz cumpleaños, María Karla</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="sr-only" aria-live="polite" id="live-region"></div>
+  <section class="intro-screen" id="intro-screen" aria-label="Abrir regalo">
+    <div class="intro-stars" aria-hidden="true"></div>
+    <div class="intro-content">
+      <p class="eyebrow">Una sorpresa que viene con marea</p>
+      <button class="bottle-button" id="open-gift" type="button" aria-label="Abrir la botella y comenzar la sorpresa">
+        <span class="bottle" aria-hidden="true"><span class="bottle-cork"></span><span class="bottle-note">28</span></span>
+        <span class="open-label">Toca para abrir</span>
+      </button>
+      <p class="intro-hint">Sube el volumen si quieres escuchar el atardecer</p>
+    </div>
+  </section>
+
+  <div class="globos-fondo" aria-hidden="true"></div>
+  <div class="globos-frente" aria-hidden="true"></div>
+
+  <audio id="birthday-audio" loop preload="none" src="assets/audio/cumple.mp3"></audio>
+  <div class="balloon-counter" aria-live="polite" aria-atomic="true"><span aria-hidden="true">🎈</span> <span id="balloon-count">0</span></div>
+  <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false" aria-label="Activar música" title="Activar o pausar música">♪</button>
+
+  <main id="main-content" class="is-hidden">
+    <section class="hero section-wave" id="inicio" aria-labelledby="hero-title">
+      <div class="sun" aria-hidden="true"></div>
+      <div class="hero-content">
+       <h1 id="hero-title" class="split-title">Feliz cumpleaños,<br><span>María Karla</span></h1>
+        <div class="age-wrap"><span class="age-number">28</span><span class="age-caption">vueltas al sol</span></div>
+        <p class="hero-lede">Hoy el mar trae unos mensajitos muy especiales para ti.</p>
+        <a class="button" href="#poema">Bajar a la orilla <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="bubbles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="wave-divider" aria-hidden="true"><svg viewBox="0 0 1440 180" preserveAspectRatio="none"><path class="wave-back" d="M0 70 C260 150 480 0 740 75 S1170 120 1440 40 V180 H0Z"/><path class="wave-front" d="M0 110 C230 25 470 165 720 95 S1160 35 1440 100 V180 H0Z"/><path class="sand-wave" d="M0 154 C280 105 500 190 790 145 S1200 120 1440 150 V180 H0Z"/></svg></div>
+    </section>
+
+    <section class="poem section-padding" id="poema" aria-labelledby="poem-title">
+      <div class="section-heading"><p class="eyebrow">Una ola para empezar</p><h2 id="poem-title">El mar te nombra</h2></div>
+      <div id="poem-lines" class="poem-lines" aria-label="Poema de bienvenida"></div>
+    </section>
+
+    <section class="friends section-padding section-wave" id="mensajes" aria-labelledby="friends-title">
+      <div class="section-heading"><p class="eyebrow">Mensajes en una botella</p><h2 id="friends-title">Lo que trajeron las olas...</h2><p>Abre cada mensaje: hay arena, risas y un poquito de poesía.</p></div>
+      <div id="friends-grid" class="friends-grid"></div>
+      <div class="wave-divider wave-divider-light" aria-hidden="true"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path class="wave-back" d="M0 35 C260 120 480 15 740 65 S1170 100 1440 25 V150 H0Z"/><path class="sand-wave" d="M0 110 C320 70 500 140 820 105 S1200 95 1440 115 V150 H0Z"/></svg></div>
+    </section>
+
+    <section class="cake-section section-padding" id="deseo" aria-labelledby="cake-title">
+      <div class="section-heading"><p class="eyebrow">Ritual oficial</p><h2 id="cake-title">Pide un deseo</h2></div>
+      <button class="cake-button" id="cake-button" type="button" aria-label="Apagar las velas del pastel">
+        <span class="cake" aria-hidden="true"><span class="candle candle-one"><b></b></span><span class="candle candle-two"><b></b></span><span class="candle candle-three"><b></b></span><span class="icing"></span><span class="cake-body"></span></span>
+      </button>
+      <p class="wish-message" id="wish-message">Toca el pastel para apagar las velas</p>
+    </section>
+
+    <section class="gallery section-padding section-wave" id="juntos" aria-labelledby="gallery-title">
+      <div class="section-heading"><p class="eyebrow">La tripulación completa</p><h2 id="gallery-title">Todos juntos</h2><p>Momentos que merecen quedarse flotando.</p></div>
+      <div id="gallery-grid" class="gallery-grid"></div>
+      <div class="wave-divider wave-divider-light" aria-hidden="true"><svg viewBox="0 0 1440 150" preserveAspectRatio="none"><path class="wave-back" d="M0 40 C260 120 480 15 740 65 S1170 100 1440 30 V150 H0Z"/><path class="sand-wave" d="M0 112 C320 72 500 140 820 105 S1200 95 1440 115 V150 H0Z"/></svg></div>
+    </section>
+
+    <section class="letter-section section-padding" id="carta" aria-labelledby="letter-title">
+      <div class="section-heading"><p class="eyebrow">Encontraste la última marea</p><h2 id="letter-title">Una carta para ti</h2></div>
+      <button class="envelope" id="envelope" type="button" aria-expanded="false" aria-controls="letter-paper" aria-label="Abrir la carta final"><span class="envelope-flap"></span><span class="envelope-front">Para María Karla <small>con amor y sal</small></span></button>
+      <article class="letter-paper" id="letter-paper" hidden><p class="letter-date">Con cariño, hoy y siempre</p><p id="dedication"></p><p class="letter-signoff">Tu gente del mar <span aria-hidden="true">✦</span></p></article>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Que nunca te falten mar, poesía y motivos para celebrar.</p><span aria-hidden="true">✦</span></footer>
+
+  <div class="modal" id="message-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden><div class="modal-backdrop" data-close-modal></div><div class="modal-card"><button class="modal-close" id="modal-close" type="button" aria-label="Cerrar mensaje">×</button><p class="eyebrow">Mensaje en una botella</p><h2 id="modal-title"></h2><p id="modal-message"></p></div></div>
+  <div class="photo-modal" id="photo-modal" role="dialog" aria-modal="true" aria-label="Visor de fotos grupales" hidden>
+    <div class="photo-modal-backdrop" data-close-photo-modal></div>
+    <div class="photo-viewer" role="document">
+      <button class="photo-modal-close" id="photo-modal-close" type="button" aria-label="Cerrar visor de fotos">×</button>
+      <button class="photo-nav photo-nav-prev" id="photo-prev" type="button" aria-label="Foto anterior">‹</button>
+      <figure class="polaroid" id="polaroid">
+        <span class="washi-tape" aria-hidden="true"></span>
+        <span class="sea-detail" aria-hidden="true">✦</span>
+        <img id="photo-modal-image" alt="">
+        <figcaption id="photo-modal-caption"></figcaption>
+      </figure>
+      <button class="photo-nav photo-nav-next" id="photo-next" type="button" aria-label="Foto siguiente">›</button>
+      <p class="photo-counter" id="photo-counter" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
