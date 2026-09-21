@@ -9,14 +9,14 @@ const amigos = [
 ];
 
 const fotosGrupales = [
-  { src: 'assets/img/grupal-1.jpg', alt: 'Amigos celebrando juntos junto al mar', pie: 'Visita de familia' },
-  { src: 'assets/img/grupal-2.jpg', alt: 'Foto grupal de amigos sonriendo', pie: 'Tardes de cafecito' },
-  { src: 'assets/img/grupal-3.jpg', alt: 'La pandilla reunida en una tarde especial', pie: 'Niños interiores' },
-  { src: 'assets/img/grupal-4.jpg', alt: 'Brindis de cumpleaños entre amigos', pie: 'Viernes de family' },
-  { src: 'assets/img/grupal-1.jpg', alt: 'Amigos celebrando juntos junto al mar', pie: 'Nuestra tarde junto al mar' },
-  { src: 'assets/img/grupal-2.jpg', alt: 'Foto grupal de amigos sonriendo', pie: 'Risas que se quedan' },
-  { src: 'assets/img/grupal-3.jpg', alt: 'La pandilla reunida en una tarde especial', pie: 'La pandilla completa' },
-  { src: 'assets/img/grupal-4.jpg', alt: 'Brindis de cumpleaños entre amigos', pie: 'Un brindis por tus 28' }
+  { src: 'assets/img/grupal-1.JPG', alt: 'Amigos celebrando juntos junto al mar', pie: 'Visita de familia' },
+  { src: 'assets/img/grupal-2.JPG', alt: 'Foto grupal de amigos sonriendo', pie: 'Tardes de cafecito' },
+  { src: 'assets/img/grupal-3.JPG', alt: 'La pandilla reunida en una tarde especial', pie: 'Niños interiores' },
+  { src: 'assets/img/grupal-4.JPG', alt: 'Brindis de cumpleaños entre amigos', pie: 'Viernes de family' },
+  { src: 'assets/img/grupal-1.JPG', alt: 'Amigos celebrando juntos junto al mar', pie: 'Nuestra tarde junto al mar' },
+  { src: 'assets/img/grupal-2.JPG', alt: 'Foto grupal de amigos sonriendo', pie: 'Risas que se quedan' },
+  { src: 'assets/img/grupal-3.JPG', alt: 'La pandilla reunida en una tarde especial', pie: 'La pandilla completa' },
+  { src: 'assets/img/grupal-4.JPG', alt: 'Brindis de cumpleaños entre amigos', pie: 'Un brindis por tus 28' }
 
 ];
 
