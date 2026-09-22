@@ -15,14 +15,14 @@ const fotosGrupales = [
   { src: 'assets/img/grupal-2.JPG', alt: 'Foto grupal de amigos sonriendo', pie: 'Tardes de cafecito' },
   { src: 'assets/img/grupal-3.JPG', alt: 'La pandilla reunida en una tarde especial', pie: 'Niños interiores' },
   { src: 'assets/img/grupal-4.JPG', alt: 'Brindis de cumpleaños entre amigos', pie: 'Viernes de family' },
-  { src: 'assets/img/grupal-5.jpeg', alt: 'Amigos celebrando juntos junto al mar', pie: 'Nuestra tarde junto al mar' },
-  { src: 'assets/img/grupal-6.jpeg', alt: 'Foto grupal de amigos sonriendo', pie: 'Risas que se quedan' },
-  { src: 'assets/img/grupal-7.jpeg', alt: 'La pandilla reunida en una tarde especial', pie: 'La pandilla completa' },
-  { src: 'assets/img/grupal-8.jpeg', alt: 'Brindis de cumpleaños entre amigos', pie: 'Un brindis por tus 28' },
-  { src: 'assets/img/grupal-9.jpeg', alt: 'Amigos celebrando juntos junto al mar', pie: 'Nuestra tarde junto al mar' },
-  { src: 'assets/img/grupal-10.jpeg', alt: 'Foto grupal de amigos sonriendo', pie: 'Risas que se quedan' },
-  { src: 'assets/img/grupal-11.jpeg', alt: 'La pandilla reunida en una tarde especial', pie: 'La pandilla completa' },
-  { src: 'assets/img/grupal-12.jpeg', alt: 'Brindis de cumpleaños entre amigos', pie: 'Un brindis por tus 28' }
+  { src: 'assets/img/grupal-5.jpeg', alt: 'Amigos celebrando juntos junto al mar', pie: 'El Lachi en el Bohío' },
+  { src: 'assets/img/grupal-6.jpeg', alt: 'Foto grupal de amigos sonriendo', pie: 'La piliii' },
+  { src: 'assets/img/grupal-7.jpeg', alt: 'La pandilla reunida en una tarde especial', pie: 'Los poetas en la FAC' },
+  { src: 'assets/img/grupal-8.jpeg', alt: 'Brindis de cumpleaños entre amigos', pie: 'Los poetas en el Bohío' },
+  { src: 'assets/img/grupal-9.jpeg', alt: 'Amigos celebrando juntos junto al mar', pie: 'El familión de Darío' },
+  { src: 'assets/img/grupal-10.jpeg', alt: 'Foto grupal de amigos sonriendo', pie: 'Las Pilis y la mama' },
+  { src: 'assets/img/grupal-11.jpeg', alt: 'La pandilla reunida en una tarde especial', pie: 'La mama en El Bohío' },
+  { src: 'assets/img/grupal-12.jpeg', alt: 'Brindis de cumpleaños entre amigos', pie: 'Las niñas pequeñas🎈🎈🎈' }
 
 ];
 
